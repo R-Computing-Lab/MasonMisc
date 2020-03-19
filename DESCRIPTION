@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Mason Garrison
 Maintainer: Mason Garrison <garrissm@wfu.edu>
 Description: Contains many functions useful to Mason 
-  and other Wake Forest Faculty
+  and other Wake Forest Faculty.
 License: GNU GPL v3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -18,3 +18,4 @@ Imports:
     Matrix
 Suggests:
     NlsyLinks
+URL: https://github.com/smasongarrison/MasonMisc

@@ -4,6 +4,7 @@
 #' @param cov.mat Covariance matrix
 #' @param means Means
 #' @param varnames Variable Names
+#' @param ... Additional Stuff
 #' @return Generates multivariate normal data from a either a data frame or covariance matrix (\code{cov.mat}) of length \code{n}
 #' @importFrom stats cov
 #' @importFrom Matrix colMeans
