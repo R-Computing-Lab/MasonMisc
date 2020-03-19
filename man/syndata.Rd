@@ -7,6 +7,8 @@
 syndata(df = NULL, n = 300, cov.mat = NULL, means = NULL, varnames = NULL, ...)
 }
 \arguments{
+\item{df}{Data Frame}
+
 \item{n}{Sample Size}
 
 \item{cov.mat}{Covariance matrix}
@@ -14,8 +16,6 @@ syndata(df = NULL, n = 300, cov.mat = NULL, means = NULL, varnames = NULL, ...)
 \item{means}{Means}
 
 \item{varnames}{Variable Names}
-
-\item{data}{Data}
 }
 \value{
 Generates multivariate normal data from a either a data frame or covariance matrix (\code{cov.mat}) of length \code{n}

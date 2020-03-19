@@ -1,6 +1,6 @@
 #' syndata
 #' @param n Sample Size
-#' @param data Data
+#' @param df Data Frame
 #' @param cov.mat Covariance matrix
 #' @param means Means
 #' @param varnames Variable Names

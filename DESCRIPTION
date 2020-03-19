@@ -4,8 +4,8 @@ Title: Mason's Miscilanous Functions
 Version: 0.1.0
 Author: Mason Garrison
 Maintainer: Mason Garrison <garrissm@wfu.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Contains many functions useful to Mason 
+  and other Wake Forest Faculty
 License: GNU GPL v3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
