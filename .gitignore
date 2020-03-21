@@ -37,4 +37,4 @@ vignettes/*.pdf
 R/hello.R
 desktop.ini
 man/hello.Rd
-scrap/scrap.R
+scrap/*
