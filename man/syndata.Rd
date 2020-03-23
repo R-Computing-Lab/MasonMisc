@@ -4,7 +4,16 @@
 \alias{syndata}
 \title{syndata}
 \usage{
-syndata(df = NULL, n = 300, cov.mat = NULL, means = NULL, varnames = NULL, ...)
+syndata(
+  df = NULL,
+  n = 300,
+  cov.mat = NULL,
+  cor.mat = NULL,
+  means = NULL,
+  var.names = NULL,
+  var.class = NULL,
+  ...
+)
 }
 \arguments{
 \item{df}{Data Frame}
@@ -13,14 +22,18 @@ syndata(df = NULL, n = 300, cov.mat = NULL, means = NULL, varnames = NULL, ...)
 
 \item{cov.mat}{Covariance matrix}
 
+\item{cor.mat}{Correlation matrix}
+
 \item{means}{Means}
 
-\item{varnames}{Variable Names}
+\item{var.names}{Variable Names}
+
+\item{var.class}{Variable Class}
 
 \item{...}{Additional Stuff}
 }
 \value{
-Generates multivariate normal data from a either a data frame or covariance matrix (\code{cov.mat}) of length \code{n}
+Generates multivariate normal data from either a data frame \code{df} or covariance matrix (\code{cov.mat}) or correlation matrix (\code{cov.mat}) of length \code{n}
 }
 \description{
 syndata
